@@ -9,7 +9,7 @@ def divide_numbers(a: int, b: int) -> float:
     return a / b
 
 def main():
-    result = add_numbers(2, 3)
+    result = add_numbers("2", 3)
     print("Sum:", result)
 
     try:
